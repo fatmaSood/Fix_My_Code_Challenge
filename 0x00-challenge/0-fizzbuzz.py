@@ -3,8 +3,6 @@
 FizzBuzz
 """
 import sys
-
-
 def fizzbuzz(n):
     """
     FizzBuzz function prints numbers from 1 to n separated by a space.
@@ -34,5 +32,3 @@ if __name__ == '__main__':
 
     number = int(sys.argv[1])
     fizzbuzz(number)
-    
-    
